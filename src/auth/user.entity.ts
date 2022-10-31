@@ -1,7 +1,6 @@
 import { Board } from './../boards/board.entity';
 import {
   Entity,
-  BaseEntity,
   PrimaryGeneratedColumn,
   Column,
   Unique,
@@ -10,7 +9,7 @@ import {
 
 @Entity()
 @Unique(['username'])
-export class User extends BaseEntity {
+export class User {
   @PrimaryGeneratedColumn()
   id: number;
 
