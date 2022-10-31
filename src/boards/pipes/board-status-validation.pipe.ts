@@ -1,4 +1,4 @@
-import { BoardStatus } from './../board.model';
+import { BoardStatus } from '../board-status.enum';
 import {
   ArgumentMetadata,
   BadRequestException,
