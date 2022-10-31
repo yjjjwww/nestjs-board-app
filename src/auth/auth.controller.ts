@@ -6,7 +6,6 @@ import {
   Body,
   Controller,
   Post,
-  Req,
   UseGuards,
   ValidationPipe,
 } from '@nestjs/common';
